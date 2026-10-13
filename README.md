@@ -26,3 +26,7 @@ Alert the user promptly when BOSS requires login or security verification, brows
 The skills do not contain default salary, experience, school, employer exclusion, or role-specific standards. A list card prioritizes detailed reading; contact requires resume evidence. External messages and job submissions require user authorization. Sends and resume receipt count only after same-candidate readback. Unknown writes are checked before retries. No platform-security bypass, paid action, candidate-data publication, or automatic ATS upload.
 
 This repository is provided for personal research and learning, not commercial use. It is not affiliated with BOSS Zhipin. Users must check platform terms, applicable law, permissions, and candidate-data handling requirements. That label alone does not make an activity permitted, and this repository does not provide legal advice.
+
+## New-role rules
+
+The agent generates a complete role JSON structure from the JD and user-provided criteria. Remaining explicitly defined, comparable choices use the strictest option while preserving confirmed decisions and exceptions. Salary and experience for a new role still require user confirmation; execution starts only with complete rules and user authorization. The template contains no company-specific thresholds. See the [generation and confirmation contract](skills/boss-candidate-screen/references/role-rule-generation.md).

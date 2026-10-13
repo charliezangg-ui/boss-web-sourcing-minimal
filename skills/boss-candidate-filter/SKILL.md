@@ -11,3 +11,7 @@ description: Plan, apply and verify BOSS candidate filters separately for recomm
 新的按岗寻访开始前，一次性列出完整条件及平台档位偏差；缺少会改变边界的薪资或经验值时一次问清。本轮已有明确值直接复用，续跑和窄转宽不重复询问。面板操作串行：设值→按页面要求提交→重开/回读每项 effective 值、岗位和城市。推荐页“确定”、搜索页即时勾选和专业弹窗确认不可混淆；列表变化、筛选数量徽标不能代替逐字段回读。刷新或切岗位后重新核对，不假定旧条件仍在。
 
 输出字段表：requested/effective/unsupported/failed/unknown、页面、时间、证据与偏差。条件未知不得把该列表计入原策略样本。低产出阶段按[策略顺序](references/search-strategy.md)调整，只放宽获准的召回项，不改变真实岗位门槛。
+
+## 新岗位规则入口
+
+新岗位先按[规则 JSON 生成与确认](../boss-candidate-screen/references/role-rule-generation.md)自动生成完整结构；剩余可比较选项默认最严格，已确认决定与例外保留。薪资、年限仍须用户确认；规则 ready 且动作已获授权后才进入执行。同一运行续跑复用确认与规则版本。

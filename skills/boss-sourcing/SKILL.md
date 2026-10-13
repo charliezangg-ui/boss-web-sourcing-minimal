@@ -23,3 +23,7 @@ description: Route modular BOSS web recruiting from job binding through sourcing
 “找人并打招呼 N 人”按岗位绑定→条件回读→一级分流→完整读取→逐关评审→发送回读循环，仅同人同岗、合格且已验证的唯一发送计入 N。“筛选 N 人”止于评审，不隐含外发。“处理新招呼”检查未读及本地未完成事务；合适者的目标是取得完整简历，不合适者记录已读事实。收到附件仅完成 BOSS 收件及已授权下载，后续去向由用户另行决定。
 
 数量目标、断点和续接遵循[编排契约](references/orchestration.md)；[候选人交接与量化](references/candidate-contract.md)统一计算人数、事件与未知值。模块可独立调用，跳过上游须有等价证据；触达不能跳过资格评审。达标或用户明确终点后封存运行；事后发现误发只更正质量记录，不自动补量。
+
+## 新岗位规则入口
+
+新岗位先按[规则 JSON 生成与确认](../boss-candidate-screen/references/role-rule-generation.md)自动生成完整结构；剩余可比较选项默认最严格，已确认决定与例外保留。薪资、年限仍须用户确认；规则 ready 且动作已获授权后才进入执行。同一运行续跑复用确认与规则版本。

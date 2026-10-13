@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "role_id": null,
+  "role_name": null,
+  "version": null,
+  "jd": {
+    "source": null,
+    "version": null
+  },
+  "company_rules": {
+    "source": null,
+    "version": null
+  },
+  "status": "draft",
+  "experience": {
+    "basis": null,
+    "min_years": null,
+    "max_years": null,
+    "confirmation_status": "pending",
+    "confirmation_source": null
+  },
+  "salary": {
+    "currency": null,
+    "period": null,
+    "min": null,
+    "max": null,
+    "range_match_policy": null,
+    "unknown_policy": null,
+    "confirmation_status": "pending",
+    "confirmation_source": null
+  },
+  "requirements": [],
+  "bonus_conditions": [],
+  "exceptions": [],
+  "remaining_option_policy": "strictest_defined_comparable_option_preserve_confirmed_decisions",
+  "remaining_option_decisions": [],
+  "unresolved": [],
+  "execution_authorization": {
+    "source": null,
+    "actions": []
+  }
+}
