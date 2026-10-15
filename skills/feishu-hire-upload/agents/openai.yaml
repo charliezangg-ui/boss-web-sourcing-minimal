@@ -1,0 +1,4 @@
+interface:
+  display_name: "飞书招聘简历上传"
+  short_description: "独立配置飞书招聘连接，上传简历并核验人才、附件及岗位投递结果"
+  default_prompt: "Use $feishu-hire-upload to prepare and execute the authorized resume upload, then verify the result."
