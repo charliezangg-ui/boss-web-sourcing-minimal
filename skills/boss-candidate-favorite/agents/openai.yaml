@@ -1,0 +1,4 @@
+interface:
+  display_name: "BOSS 候选人收藏"
+  short_description: "根据当前岗位评审收藏BOSS候选人，核验结果并保存恢复断点"
+  default_prompt: "Use $boss-candidate-favorite to favorite the authorized qualified candidates and verify each result."

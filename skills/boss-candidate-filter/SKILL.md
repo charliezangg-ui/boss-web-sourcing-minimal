@@ -14,4 +14,4 @@ description: Plan, apply and verify BOSS candidate filters separately for recomm
 
 ## 新岗位规则入口
 
-新岗位先按[规则 JSON 生成与确认](../boss-candidate-screen/references/role-rule-generation.md)自动生成完整结构；剩余可比较选项默认最严格，已确认决定与例外保留。薪资、年限仍须用户确认；规则 ready 且动作已获授权后才进入执行。同一运行续跑复用确认与规则版本。
+开始候选人筛选前，按[规则生成与确认](../boss-candidate-screen/references/role-rule-generation.md)准备或复用有效岗位规则；字段来源、确认和ready条件以该引用为准。

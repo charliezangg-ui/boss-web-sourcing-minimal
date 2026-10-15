@@ -2,7 +2,7 @@
 
 **Languages:** [English](README.md) · [简体中文](README.zh-CN.md)
 
-Modular Codex skills for authorized recruiting on the BOSS Zhipin employer website. The [index skill](skills/boss-sourcing/SKILL.md) routes tasks across 14 modules, including separate candidate follow-up, recruiting data, operations logging, failure recovery, and security feedback. Detailed field catalogs, sourcing strategy, decision gates, conversation states, and failure cases live in the relevant `references/` folders. Load only the modules needed for the request.
+Modular Codex skills for authorized recruiting on the BOSS Zhipin employer website. The [index skill](skills/boss-sourcing/SKILL.md) routes tasks to four workflows and 15 skill entrypoints/modules, including candidate favorites, separate candidate follow-up, recruiting data, operations logging, failure recovery, and security feedback. The index locates capabilities; workflows compose steps; modules and the failure index own the detailed rules. Recommendation outreach, job creation from a description or JD, recommendation favorites, and conversation handling each have a direct route. Load only the dependencies needed for the request.
 
 ## Requirements
 
@@ -23,7 +23,7 @@ Alert the user promptly when BOSS requires login or security verification, brows
 
 ## Scope and safety
 
-The skills do not contain default salary, experience, school, employer exclusion, or role-specific standards. A list card prioritizes detailed reading; contact requires resume evidence. External messages and job submissions require user authorization. Sends and resume receipt count only after same-candidate readback. Unknown writes are checked before retries. No platform-security bypass, paid action, candidate-data publication, or automatic ATS upload.
+The skills do not contain default salary, experience, school, employer exclusion, or role-specific standards. A list card prioritizes detailed reading; contact requires resume evidence. External messages and job submissions require user authorization. Sends and resume receipt count only after same-candidate readback. Unknown writes are inspected without replaying the action. No platform-security bypass, paid action, candidate-data publication, or automatic ATS upload.
 
 This repository is provided for personal research and learning, not commercial use. It is not affiliated with BOSS Zhipin. Users must check platform terms, applicable law, permissions, and candidate-data handling requirements. That label alone does not make an activity permitted, and this repository does not provide legal advice.
 

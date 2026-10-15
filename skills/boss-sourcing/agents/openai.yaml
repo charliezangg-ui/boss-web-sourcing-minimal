@@ -1,4 +1,4 @@
 interface:
   display_name: "BOSS Web Sourcing"
   short_description: "BOSS 招聘端网页的模块化寻访、候选人沟通、简历收取与结果核验"
-  default_prompt: "Use $boss-sourcing for the requested BOSS web recruiting steps. Preserve the run boundary, candidate evidence, and verified outcomes."
+  default_prompt: "Use $boss-sourcing to select the requested workflow or module, reuse its rules, and verify the results."

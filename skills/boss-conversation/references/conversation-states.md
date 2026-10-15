@@ -7,6 +7,7 @@
 | new_unread | 目标岗位新未读入站 | 打开前保存列表检查点，读全文 |
 | outbound_only | 我方末条，无候选人入站 | 等待，不自动催促 |
 | no_action_unfit | 主动来聊且明确不合适 | 已读、落盘，不发拒绝 |
+| insufficient_evidence | 材料可读但缺少必要证据 | 保留缺口，不当明确不匹配 |
 | blocked_read | 详情未完整读或身份歧义 | 保存断点，不伪作不合适 |
 | fit_interested | 资格及入站意向明确 | 回复并按授权求完整简历 |
 | resume_text_verified | 标准话术发送回读 | 核对按钮步骤 |

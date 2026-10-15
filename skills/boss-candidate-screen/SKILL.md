@@ -8,8 +8,8 @@ description: Review full BOSS resumes against a job-specific decision card, expl
 
 候选人必须按[完整简历读取](references/resume-reading.md)足量覆盖。先按[排除集合](references/exclusion-policy.md)核对当前及历史经历，再按[逐关判断](references/decision-gates.md)评估职业主线、持续责任与本人项目行动。已确认硬排除命中即跳过，优势不抵消；路径不匹配需具体责任差异，不能按行业标签或“转AI晚”推断。现任大厂、学校、薪酬和技术词不证明owner责任。期望/最近关注薪资不是当前收入。可读但关键证据不足记 `insufficient_evidence`，与明确 `mismatch`、读取失败 `blocked_read` 分开。首次联系门槛不等同面试通过。
 
-逐人保存匿名键、岗位卡与排除版本、各关status、至多3条决定性证据及来源、缺口、结论和详情覆盖；新证据复评保留原判断。只有全部必要关通过才 `contact_now` 并传给[打招呼](../boss-greet/SKILL.md)。规则更新后旧contact_now必须按新版复核；已发送事实独立保存，不重发。
+逐人保存匿名键、岗位卡与排除版本、各关status、至多3条决定性证据及来源、缺口、结论和详情覆盖；新证据复评保留原判断。只有全部必要关通过才 `contact_now` ；结果交回调用方，由[推荐页workflow](../boss-sourcing/references/workflows/recommendation-core.md)按任务衔接招呼或收藏。规则更新后旧contact_now必须按新版复核；已发送事实独立保存，不重发。
 
 ## 新岗位规则入口
 
-新岗位先按[规则 JSON 生成与确认](references/role-rule-generation.md)自动生成完整结构；剩余可比较选项默认最严格，已确认决定与例外保留。薪资、年限仍须用户确认；规则 ready 且动作已获授权后才进入执行。同一运行续跑复用确认与规则版本。
+开始候选人筛选前，按[规则生成与确认](references/role-rule-generation.md)准备或复用有效岗位规则；字段来源、确认和ready条件以该引用为准。
