@@ -4,7 +4,7 @@
 
 | 原模块 | 公开模块 | 迁移的关键能力 | 状态 |
 |---|---|---|---|
-| boss-sourcing | boss-sourcing | 16个Skill入口与模块、五条workflow、同run目标、候选人交接、网页契约与恢复 | 文档/引用已校验 |
+| boss-sourcing | boss-sourcing | 15个Skill入口与模块、五条workflow、同run目标、候选人交接、网页契约与恢复 | 文档/引用已校验 |
 | boss-job-create | boss-job-create | 字段依据、保存与发布区分、岗位类型目录、话术配置、付费名额处理 | 静态类型查询已运行；网页待验 |
 | boss-candidate-filter | boss-candidate-filter | 推荐/搜索字段目录、实际值回读、窄宽版本、关键词→学校的切页顺序 | 文档/引用已校验；网页待验 |
 | boss-candidate-source | boss-candidate-source | 两级分流、唯一卡片数、策略事件与耗时、人工校准的本地版本 | 文档/引用已校验 |
@@ -16,7 +16,6 @@
 | boss-candidate-followup | boss-candidate-followup | 入站指纹、回复分类、未回复等待、同人恢复 | 文档/引用已校验；网页待验 |
 | boss-resume-collect | boss-resume-collect | 请求/承诺/实际附件/在线简历/下载分阶段，文件哈希 | 文档/引用已校验；下载待验 |
 | boss-recruiting-data | boss-recruiting-data | 平台与本地证据分开、按岗漏斗及cohort回复率 | 文档/引用已校验 |
-| boss-operations-log | boss-operations-log | 策略切换前留痕、逐人阶段计时、下一人前记录门槛 | 文档/引用已校验；自动强制门禁待实现 |
 | boss-failure-recovery | boss-failure-recovery | 前置失败停链、故障索引、实例与类型分离、实测恢复标记 | 文档/引用已校验 |
 | boss-security-feedback | boss-security-feedback | 安全验证分类、停手、原空间恢复与事件留痕 | 文档/引用已校验；网页待验 |
 
@@ -35,3 +34,7 @@
 ## 2026-10-15 可选飞书招聘上传
 
 新增独立 `feishu-hire-upload` 与薄上传 workflow。执行器及首次配置随模块分发，不依赖私有 bridge、账号、公司规则或个人持续授权。修复已查重计划的 prepare/execute 交接，以及投递响应未知时必须按原岗位目标回读的恢复逻辑。离线场景覆盖空目录安装、新人才、已有投递复用、投递响应丢失、仅人才入库、连接隔离与输入变化；真实租户写入未作为测试执行。
+
+## v0.1.1 公开范围修正
+
+公开包移除运营日志功能模块及其日指标账本参考，不再提供独立运营日志入口。候选人动作回执、去重与恢复断点继续由已有契约维护。当前公开包为15个Skill入口与模块、五条workflow；个人环境的运营日志模块不属于本次公开删除范围。

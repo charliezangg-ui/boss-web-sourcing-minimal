@@ -2,7 +2,7 @@
 
 **Languages:** [English](README.md) · [简体中文](README.zh-CN.md)
 
-Modular Codex skills for authorized recruiting on the BOSS Zhipin employer website. The [index skill](skills/boss-sourcing/SKILL.md) routes tasks to five workflows and 16 skill entrypoints/modules, including candidate favorites, separate candidate follow-up, recruiting data, operations logging, failure recovery, and security feedback. The index locates capabilities; workflows compose steps; modules and the failure index own the detailed rules. Recommendation outreach, job creation from a description or JD, recommendation favorites, conversation handling, and optional Feishu Hire upload each have a direct route. Load only the dependencies needed for the request.
+Modular Codex skills for authorized recruiting on the BOSS Zhipin employer website. The [index skill](skills/boss-sourcing/SKILL.md) routes tasks to five workflows and 15 skill entrypoints/modules, including candidate favorites, separate candidate follow-up, recruiting data, failure recovery, and security feedback. The index locates capabilities; workflows compose steps; modules and the failure index own the detailed rules. Recommendation outreach, job creation from a description or JD, recommendation favorites, conversation handling, and optional Feishu Hire upload each have a direct route. Load only the dependencies needed for the request.
 
 ## Requirements
 

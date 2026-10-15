@@ -35,7 +35,6 @@ description: Route BOSS web recruiting to recommendation outreach, job creation,
 | 求取或接收简历 | [收简历](../boss-resume-collect/SKILL.md) |
 | 上传飞书招聘 | [上传](../feishu-hire-upload/SKILL.md) |
 | 招聘数据 | [数据](../boss-recruiting-data/SKILL.md) |
-| 运营留痕 | [日志](../boss-operations-log/SKILL.md) |
 | 失败处理 | [恢复](../boss-failure-recovery/SKILL.md) · [失败索引](../boss-failure-recovery/references/failure-index.md) |
 | 安全验证反馈 | [安全反馈](../boss-security-feedback/SKILL.md) |
 
